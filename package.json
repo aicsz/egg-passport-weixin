@@ -5,11 +5,7 @@
   "eggPlugin": {
     "name": "passportAsiczWeixin"
   },
-  "keywords": [
-    "egg",
-    "eggPlugin",
-    "egg-plugin"
-  ],
+  "keywords": ["egg", "eggPlugin", "egg-plugin"],
   "dependencies": {},
   "devDependencies": {
     "autod": "^3.0.0",
@@ -34,11 +30,7 @@
     "pkgfiles": "egg-bin pkgfiles",
     "autod": "autod"
   },
-  "files": [
-    "app.js",
-    "agent.js",
-    "config"
-  ],
+  "files": ["app.js", "agent.js", "config"],
   "ci": {
     "version": "8, 9"
   },
@@ -50,6 +42,6 @@
     "url": "https://github.com/eggjs/egg/issues"
   },
   "homepage": "https://github.com/eggjs/egg-passport-asicz-weixin#readme",
-  "author": "ihonestlife",
+  "author": "aicsz",
   "license": "MIT"
 }
