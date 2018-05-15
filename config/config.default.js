@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * egg-passport-asicz-weixin default config
@@ -6,5 +6,6 @@
  * @property {String} SOME_KEY - some description
  */
 exports.passportAsiczWeixin = {
-
+  clientID: "",
+  secret: ""
 };
