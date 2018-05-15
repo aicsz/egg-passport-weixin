@@ -1,6 +1,6 @@
 {
   "name": "egg-passport-asicz-weixin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An weixin plugin of egg framework.",
   "eggPlugin": {
     "name": "passportAsiczWeixin",
