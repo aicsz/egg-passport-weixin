@@ -1,12 +1,15 @@
 {
   "name": "egg-passport-asicz-weixin",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "An weixin plugin of egg framework.",
   "eggPlugin": {
-    "name": "passportAsiczWeixin"
+    "name": "passportAsiczWeixin",
+    "dependencies": ["passport"]
   },
   "keywords": ["egg", "eggPlugin", "egg-plugin"],
-  "dependencies": {},
+  "dependencies": {
+    "passport-weixin": "^0.1.0"
+  },
   "devDependencies": {
     "autod": "^3.0.0",
     "autod-egg": "^1.0.0",
