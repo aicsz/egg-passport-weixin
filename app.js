@@ -66,7 +66,7 @@ module.exports = app => {
 
   //微信客户端登录
   //微信官网文档：http://mp.weixin.qq.com/wiki/17/c0f37d5704f0b64713d5d2c37b468d75.html
-  passport.use(
+  app.passport.use(
     "loginByWeixinClient",
     new WeixinStrategy(
       {
