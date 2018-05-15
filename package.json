@@ -1,18 +1,12 @@
 {
   "name": "egg-passport-asicz-weixin",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "An weixin plugin of egg framework.",
   "eggPlugin": {
     "name": "passportAsiczWeixin",
-    "dependencies": [
-      "passport"
-    ]
+    "dependencies": ["passport"]
   },
-  "keywords": [
-    "egg",
-    "eggPlugin",
-    "egg-plugin"
-  ],
+  "keywords": ["egg", "eggPlugin", "egg-plugin"],
   "dependencies": {
     "passport-weixin": "^0.1.0"
   },
@@ -39,11 +33,7 @@
     "pkgfiles": "egg-bin pkgfiles",
     "autod": "autod"
   },
-  "files": [
-    "app.js",
-    "agent.js",
-    "config"
-  ],
+  "files": ["app.js", "agent.js", "config"],
   "ci": {
     "version": "8, 9"
   },
